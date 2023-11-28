@@ -1,0 +1,82 @@
+form{
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    background-color: darkslateblue;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.form__input{
+    background-color: lightsteelblue;
+    border: 0px ;
+    border-radius: 2px;
+    width: 100%;
+    height: 35px;
+    text-indent: 5px;
+}
+
+.form__input:active,
+.form__input:focus{
+    outline: none;
+    color: darkslateblue;
+    font-weight: 600;
+}
+
+.form__boton{
+    width: 20%;
+    background-color: darkslateblue;
+    color:  lightsteelblue;
+    font-weight: 900;
+    border: 0px;
+    padding: 1%;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.tareas__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 0;
+}
+
+.tareas__tarea{
+    width: 70%;
+    height: fit-content;
+    padding: 4% 2%;
+    background-color: darkslateblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.tareas__tarea p{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    max-width: 80%;
+}
+
+
+.tareas__iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10%;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.completada {
+    text-decoration: line-through;
+    background-color: lightcoral;
+    color: lightcoral;
+}
